@@ -1,0 +1,71 @@
+body {
+  background-color: #EDFFF3;
+}
+
+div#header-fixed {position:fixed; z-index:-; width:100%;}
+div#header {background:white; height:3%;}
+
+
+h1 {
+  font-family: LemonMilk; font-size: 50pt; text-align: center; color: black;
+}
+
+h2 {
+  font-family: Aliens and Cows; text-align: center; font-size: 25pt; color: black;
+}
+
+h3 {
+  font-family: LemonMilk; font-size: 40pt; color: black;
+}
+
+h4 {
+  font-family: LemonMilk; font-size: 25pt; color: black; text-align: center;
+}
+
+.button {
+    background-color: #EDFFF3;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: LemonMilk;
+    width: 33%;
+}
+
+.card {
+  display: inline-block;
+  width: 31%;
+  background-color: white;
+  color: black;
+  vertical-align: top;
+  text-align: center;
+  font-family: LemonMilk;
+  margin: 1%;
+
+}
+
+.diet-cards img {
+  width: 100%
+}
+
+  p {
+    font-family: Roboto; font-size: 14pt; text-align: center;
+  }
+
+  .:link {
+    font-family: ; font-size: pt; color: ; text-decoration: none;
+  }
+
+  .:visited {
+    font-family: ; font-size: pt; color: ; text-decoration: none;
+  }
+
+  .:hover {
+    /*font-family: ; font-size: pt; color: ; text-decoration: underline;*/
+    -webkit-transition: all 3s ease;
+  	-moz-transition: all 3s ease;
+  	-o-transition: all 3s ease;
+  }
