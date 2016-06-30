@@ -8,7 +8,7 @@ class MyApp < Sinatra::Base
     erb :index
   end
 
-  get '/recipes' do
+  get '/recipe_generator' do
     erb :recipe_generator
   end
 
