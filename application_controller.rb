@@ -16,11 +16,11 @@ class MyApp < Sinatra::Base
     allergy=params[:option].to_sym
     r = put_recipes(allergy)
     if allergy.to_s == "vegan"
-      @link = r[:spring_rolls][:link]
-      @link2 = r[:protein_smoothie][:link]
-      @link3 = r[:salad][:link]
+      @title = r[:donuts][:title]
+      @title2 = r[:apple_pie][:title]
+      @title3 = r[:rigatoni][:title]
     elsif allergy.to_s == "vegetarian"
-      @link = r[:scarlet_sorbet][:link]
+      @title = r[:panini][:title]
     else
       return "nothing"
     end

@@ -1,22 +1,26 @@
 def put_recipes(allergy)
 @recipes = {
-  :vegan => {:spring_rolls=>{
-              :title=>"Spring Rolls",
-              :picture=>"Vegetarian.jpg",
-              :content=>"This is a vegan and vegetarian recipe for delicious spring rolls that has medium difficulty."},
-            :protein_smoothie => {
-              :title=>"Protein Smoothie",
+  :vegan => {:donuts=>{
+              :title=>"Vegan Donuts",
+              :link=>"https://darthveganblog.wordpress.com/2013/06/15/classic-donuts-vegan/",
               :picture=>"#",
-              :content=>"This is a vegan, vegetarian"},
-            :salad => {
-              :title=>"haha",
+              :content=>"These are vegan and vegetarian donuts which are medium difficulty."},
+            :apple_pie => {
+              :title=>"Deep Dish Apple Pie",
+              :link=>"http://www.foodnetwork.com/recipes/food-network-kitchens/deep-dish-vegan-apple-pie.html",
+              :picture=>"#",
+              :content=>"This is a vegan and vegetarian deep dish apple pie that is medium difficulty."},
+            :rigatoni => {
+              :title=>"Rigatoni with Vegetable Sauce",
+              :link=>"http://www.marthastewart.com/340648/rigatoni-with-chunky-vegetable-sauce",
               :picture=>"greens",
-              :content=>"chow"}
+              :content=>"This is a vegan and vegetarian recipe for rigatoni that is medium difficulty."}
             },
-  :vegetarian => {:scarlet_sorbet => {
-                    :title => "Scarlet Sorbet",
+  :vegetarian => {:panini => {
+                    :title => "Tomato Jam and Mozzarella Panini",
+                    :link => "http://cookieandkate.com/2015/tomato-jam-and-mozzarella-panini/",
                     :picture => "hello",
-                    :content => "This is a delicious vegetarian and vegan sorbet that is fairly easy to make."}
+                    :content => "This is a delicious vegetarian panini that is fairly easy to make."}
             }
           }
   # :gluten_free => "Here is the gluten-free recipe"
