@@ -14,10 +14,13 @@
   <h1>Recipe Generator</h1>
   <h4>Please Check the Boxes With Your Dietary Restrictions</h4>
   <form action="/new_recipes" method="post">
-    <input type="checkbox" class="checkbox" name="option" value="gluten free">Gluten free
-    <input type="checkbox" class="checkbox" name="option" value="vegetarian">Vegetarian
-    <input type="checkbox" class="checkbox" name="option" value="vegan">Vegan
-    <button type="submit" class="button2">Submit</button>
+    <input type="checkbox" class="css-checkbox" id="checkbox_pink" name="option" value="gluten free">
+    	<label for="checkbox_pink" class="css-label">Gluten Free</label>
+    <input type="checkbox" class="css-checkbox" id="checkbox_pink2" name="option" value="vegetarian">
+    <label for="checkbox_pink2" class="css-label">Vegetarian</label>
+    <input type="checkbox" class="css-checkbox" id="checkbox_pink3" name="option" value="vegan">
+    <label for="checkbox_pink3" class="css-label">Vegan</label>
+    <button type="submit" id="button2">Submit</button>
   </form>
 </body>
 </html>
