@@ -35,6 +35,19 @@ h4 {
     width: 33%;
 }
 
+.button2 {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10%;
+    font-size: 12px;
+    font-family: LemonMilk;
+    width: 10%;
+}
+
 .card {
   display: inline-block;
   width: 31%;
