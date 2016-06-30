@@ -15,11 +15,11 @@ class MyApp < Sinatra::Base
   post '/new_recipes' do
     allergy=params[:option].to_sym
     r = put_recipes(allergy)
-    if allergy == "vegan"
+    if allergy.to_s == "vegan"
       @link = r[:spring_rolls][:link]
       @link2 = r[:protein_smoothie][:link]
       @link3 = r[:salad][:link]
-    elsif allergy == "vegetarian"
+    elsif allergy.to_s == "vegetarian"
       @link = r[:scarlet_sorbet][:link]
     else
       return "nothing"
