@@ -4,6 +4,10 @@ require_relative 'models/recipes.rb'
 
 class MyApp < Sinatra::Base
 
+  get '/home' do
+    erb :index
+  end
+
   get '/recipes' do
     erb :checkbox
   end
