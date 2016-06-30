@@ -1,20 +1,24 @@
 def put_recipes(allergy)
 @recipes = {
-  :vegan => {:banana_icecream=>{
-              :link=>"alink",
-              :picture=>"imagepath",
-              :content=>"recipe"},
-            :cake => {
-              :link=>"marthastewart",
-              :picture=>"hello",
-              :content=>"sup"},
+  :vegan => {:spring_rolls=>{
+              :title=>"Spring Rolls",
+              :picture=>"Vegetarian.jpg",
+              :content=>"This is a vegan and vegetarian recipe for delicious spring rolls that has medium difficulty."},
+            :protein_smoothie => {
+              :title=>"Protein Smoothie",
+              :picture=>"#",
+              :content=>"This is a vegan, vegetarian"},
             :salad => {
-              :link=>"haha",
+              :title=>"haha",
               :picture=>"greens",
               :content=>"chow"}
+            },
+  :vegetarian => {:scarlet_sorbet => {
+                    :title => "Scarlet Sorbet",
+                    :picture => "hello",
+                    :content => "This is a delicious vegetarian and vegan sorbet that is fairly easy to make."}
             }
           }
-  # :vegetarian => ["Here is the vegetarian recipe", "Here is the other vegetarian recipe"],
   # :gluten_free => "Here is the gluten-free recipe"
 
 

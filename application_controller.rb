@@ -9,15 +9,21 @@ class MyApp < Sinatra::Base
   end
 
   get '/recipes' do
-    erb :checkbox
+    erb :recipe_generator
   end
 
   post '/new_recipes' do
     allergy=params[:option].to_sym
     r = put_recipes(allergy)
-    @link = r[:banana_icecream][:link]
-    @link2 = r[:cake][:link]
-    @link3 = r[:salad][:link]
+    if allergy == "vegan"
+      @link = r[:spring_rolls][:link]
+      @link2 = r[:protein_smoothie][:link]
+      @link3 = r[:salad][:link]
+    elsif allergy == "vegetarian"
+      @link = r[:scarlet_sorbet][:link]
+    else
+      return "nothing"
+    end
     erb :recipe_page
   end
 
