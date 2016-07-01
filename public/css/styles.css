@@ -4,7 +4,7 @@ body {
 }
 
 div#header-fixed {position:fixed; z-index:-; width:100%;}
-div#header {background:white; height:3%;}
+div#header {background:white; height:3%; position: fixed !important;}
 
 
 h1 {
