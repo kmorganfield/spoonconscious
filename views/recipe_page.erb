@@ -1,3 +1,40 @@
-<h1>Your first recipe is <%= @title %> </h1>
-<h1>Your second recipe is <%= @title2 %> </h1>
-<h1>Your third recipe is <%= @title3 %> </h1>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SpoonConscious</title>
+<link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+  <!-- <div id="header-bar"> -->
+  <div id = "header"><a href = "home">
+    <h1>SpoonConscious</h1>
+    <h2>Gluten-Free, Vegetarian, & Vegan Resources</h2></a>
+  </div>
+  <h1>Recipes for You</h1>
+
+  <section class = "recipe-cards">
+
+    <div class="card">
+        <h2> <%= @title %> </h2>
+        <img src="images/Gluten-free.jpg" alt>
+        <p> Gluten is a name for proteins found in things like wheat and barley.  People who are gluten-free cannot eat anything containing wheat products, or in extreme cases, anything contaminated by wheat. People who are gluten-free tend to avoid bread, pasta, cereals, and baked goods. </p>
+    </div>
+
+  <div class="card">
+        <h2> <%= @title2 %> </h2>
+        <img src="images/Vegetarian.jpg" alt>
+        <p> Vegetarians are people who do not eat meat for moral, religious, or health reasons. A lacto-vegetarian eats dairy products but not eggs. Ovo-vegetarians eats eggs but not dairy products.  Lacto-ovo vegetarians eat both eggs and dairy products. </p>
+    </div>
+
+    <div class="card">
+        <h2> <%= @title3 %> </h2>
+        <img src="images/vegan.jpg" alt>
+        <p> Veganism is another branch of vegetarianism.  Vegans do not eat any products that come from animals, including meat, dairy, eggs, and fish. This can be for moral, religous, or health reasons.
+        </p>
+        <br></br>
+
+    <!-- </div><h2>Your second recipe is <%= @title2 %> </h2>
+<h2>Your third recipe is <%= @title3 %> </h2> -->
+</body>
+</html>

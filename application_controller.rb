@@ -21,6 +21,8 @@ class MyApp < Sinatra::Base
       @title3 = r[:rigatoni][:title]
     elsif allergy.to_s == "vegetarian"
       @title = r[:panini][:title]
+    elsif allergy.to_s == "gluten_free"
+      @title = r[:sandwich][:title]
     else
       return "nothing"
     end

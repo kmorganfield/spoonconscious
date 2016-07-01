@@ -40,11 +40,15 @@ def put_recipes(allergy)
                     :title=>"Vegan and Gluten-Free Chili",
                     :link=>"http://www.gimmesomeoven.com/slow-cooker-vegetarian-chili-recipe/",
                     :picture=>"#",
-                    :content=>"This is a vegan, gluten-free and vegetarian chili that is medium difficulty."}
-
-            }
-          }
-  # :gluten_free => "Here is the gluten-free recipe"
+                    :content=>"This is a vegan, gluten-free and vegetarian chili that is medium difficulty."},
+          },
+  :gluten_free => {:sandwich => {
+        :title => "Really Good Sandwich",
+        :link => "hi",
+        :picture => "hello",
+        :content => "How good does this sandwich look"},
+      },
+                  }
 
 
   # recipes=[]
