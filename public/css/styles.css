@@ -8,7 +8,7 @@ div#header {background:white; height:3%;}
 
 
 h1 {
-  font-family: 'Righteous', cursive; font-size: 50pt; text-align: center; color: black;
+  font-family: 'Passion One', cursive; font-size: 50pt; text-align: center; color: black;
 }
 
 h2 {
@@ -16,11 +16,11 @@ h2 {
 }
 
 h3 {
-  font-family: 'Righteous', cursive; font-size: 40pt; color: black;
+  font-family: 'Passion One', cursive; font-size: 40pt; color: black;
 }
 
 h4 {
-  font-family: 'Righteous', cursive; font-size: 25pt; color: black; text-align: center;
+  font-family: 'Passion One', cursive; font-size: 25pt; color: black; text-align: center;
 }
 
 .button {
@@ -32,7 +32,7 @@ h4 {
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    font-family: 'Righteous', cursive;
+    font-family: 'Passion One', cursive;
     width: 33%;
 }
 
@@ -45,7 +45,7 @@ h4 {
     text-decoration: none;
     margin: 1%;
     font-size: 12px;
-    font-family: 'Righteous', cursive;
+    font-family: 'Passion One', cursive;
     width: 10%;
 }
 
@@ -59,7 +59,7 @@ h4 {
     margin-left: 45%;
     margin-top: 1%;
     font-size: 12px;
-    font-family: 'Righteous', cursive;
+    font-family: 'Passion One', cursive;
     width: 10%;
 }
 
@@ -70,7 +70,7 @@ h4 {
   color: black;
   vertical-align: top;
   text-align: center;
-  font-family: 'Righteous', cursive;
+  font-family: 'Passion One', cursive;
   margin: 1%;
 
 }
@@ -119,7 +119,7 @@ h4 {
         }
 
   .css-label {
-    font-family: 'Righteous', cursive;
+    font-family: 'Passion One', cursive;
     margin-right: 8%;
     margin-left: 8%;
   }
