@@ -84,7 +84,7 @@ h4 {
 }
 
   p {
-    font-family: Roboto; font-size: 14pt; text-align: center;
+    font-family: 'Roboto', sans-serif; font-size: 14pt; text-align: center;
   }
 
   input[type=checkbox].css-checkbox {
