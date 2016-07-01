@@ -127,7 +127,7 @@ def put_recipes(allergy)
           :picture=>"#",
           :content=>"This is a gluten-free and vegetarian chili that is medium difficulty."},
                   :buhda_bowl => {
-          :title=>"colorful Buddha Bowl",
+          :title=>"Colorful Buddha Bowl",
           :link=>"http://minimalistbaker.com/sweet-potato-chickpea-buddha-bowl/",
           :picture=>"#",
           :content=>"This is a gluten-free buddha bowl that is medium difficulty."},
@@ -146,14 +146,15 @@ def put_recipes(allergy)
               :link=>"http://ditchthewheat.com/restaurant-style-steak-fajitas/",
               :picture=>"#",
               :content=>"This is a healthy gluten-free steak fajita recipe that is easy difficulty."},
-              :gf_cake => {
-                :title=>"Gluten-Free Cheese Cake",
-                :link=>"http://minimalistbaker.com/easy-baked-cheesecake-vegan-gf/",
-                :picture=>"#",
-                :content=>"This is a gluten-free and vegan cheese cake recipe that is easy difficulty."},
+            :gf_cake => {
+              :title=>"Gluten-Free Cheese Cake",
+              :link=>"http://minimalistbaker.com/easy-baked-cheesecake-vegan-gf/",
+              :picture=>"#",
+              :content=>"This is a gluten-free and vegan cheese cake recipe that is easy difficulty."}
 
-      },
+      }
                   }
+  # :gluten_free => "Here is the gluten-free recipe"
 
 
   # recipes=[]
