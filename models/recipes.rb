@@ -1,4 +1,4 @@
-ef put_recipes(allergy)
+def put_recipes(allergy)
 @recipes = {
   :vegan => {:cinnamon_rolls=>{
               :title=>"Vegan Cinnamon Rolls",
