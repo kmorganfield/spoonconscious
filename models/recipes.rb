@@ -1,4 +1,4 @@
-def put_recipes(allergy)
+ef put_recipes(allergy)
 @recipes = {
   :vegan => {:cinnamon_rolls=>{
               :title=>"Vegan Cinnamon Rolls",
@@ -146,19 +146,13 @@ def put_recipes(allergy)
               :link=>"http://ditchthewheat.com/restaurant-style-steak-fajitas/",
               :picture=>"images/Steak-Fajitas-3-DSC_0086.jpg",
               :content=>"This is a healthy gluten-free steak fajita recipe that is easy difficulty."},
-<<<<<<< HEAD
+
               :gf_cake => {
                 :title=>"Gluten-Free Cheese Cake",
                 :link=>"http://minimalistbaker.com/easy-baked-cheesecake-vegan-gf/",
                 :picture=>"images/BAKED-Vegan-Gluten-Free-Cheesecake-made-in-the-BLENDER-vegan-glutenfree-cheesecake-recipe.jpg",
                 :content=>"This is a gluten-free and vegan cheese cake recipe that is easy difficulty."},
-=======
-            :gf_cake => {
-              :title=>"Gluten-Free Cheese Cake",
-              :link=>"http://minimalistbaker.com/easy-baked-cheesecake-vegan-gf/",
-              :picture=>"#",
-              :content=>"This is a gluten-free and vegan cheese cake recipe that is easy difficulty."}
->>>>>>> feadbb3d34600601ebda8dd1f459a9919f0a84b1
+
 
       }
                   }
@@ -172,5 +166,3 @@ def put_recipes(allergy)
   # end
   #   return recipes
 end
-
-#puts put_recipes(:vegan)[:banana_icecream][:link]
